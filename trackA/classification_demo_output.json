@@ -1,0 +1,77 @@
+[
+  {
+    "description": "A deep crater has formed on the road near the market and bikes are struggling to pass.",
+    "predicted_category": "Road",
+    "category_confidence": 0.725,
+    "predicted_subcategory": "Pothole",
+    "subcategory_confidence": 0.454,
+    "routed_department": "Roads & Infrastructure Department",
+    "severity_score": 6,
+    "severity_label": "HIGH",
+    "explanation": [
+      "Road/traffic impact: deep crater, bikes are struggling, struggling to pass (+10)",
+      "Compound-risk boost: significant road hazard affecting movement"
+    ]
+  },
+  {
+    "description": "The traffic signal at the junction has stopped changing and vehicles are getting stuck.",
+    "predicted_category": "Road",
+    "category_confidence": 0.953,
+    "predicted_subcategory": "Traffic signal",
+    "subcategory_confidence": 0.881,
+    "routed_department": "Roads & Infrastructure Department",
+    "severity_score": 5,
+    "severity_label": "MEDIUM",
+    "explanation": [
+      "Road/traffic impact: vehicles are getting stuck, stopped changing (+7)",
+      "People affected: vehicles (+2)",
+      "Compound-risk boost: significant road hazard affecting movement"
+    ]
+  },
+  {
+    "description": "The drinking water has a strange smell and looks brown. Residents are worried about using it.",
+    "predicted_category": "Water",
+    "category_confidence": 0.949,
+    "predicted_subcategory": "Water quality",
+    "subcategory_confidence": 0.909,
+    "routed_department": "Water Supply Department",
+    "severity_score": 5,
+    "severity_label": "MEDIUM",
+    "explanation": [
+      "Water impact: strange smell, looks brown, worried about using it (+10)",
+      "People affected: residents (+2)",
+      "Compound-risk boost: visible drinking-water quality concern"
+    ]
+  },
+  {
+    "description": "A live wire is hanging close to the road and children are playing nearby.",
+    "predicted_category": "Electricity",
+    "category_confidence": 0.933,
+    "predicted_subcategory": "Electrical hazard",
+    "subcategory_confidence": 0.884,
+    "routed_department": "Electricity Department",
+    "severity_score": 9,
+    "severity_label": "CRITICAL",
+    "explanation": [
+      "Safety risk: live wire (+5)",
+      "Vulnerable population: children (+5)",
+      "Compound-risk boost: serious hazard near a vulnerable population",
+      "Compound-risk boost: direct electrical hazard + vulnerable population"
+    ]
+  },
+  {
+    "description": "Garbage has not been collected for many days and there is a bad smell near the houses.",
+    "predicted_category": "Sanitation",
+    "category_confidence": 0.929,
+    "predicted_subcategory": "Garbage collection",
+    "subcategory_confidence": 0.871,
+    "routed_department": "Sanitation & Solid Waste Management Department",
+    "severity_score": 2,
+    "severity_label": "LOW",
+    "explanation": [
+      "Sanitation impact: bad smell (+3)",
+      "Duration: for many days (+4)",
+      "Compound-risk boost: sanitation problem persisting for multiple days"
+    ]
+  }
+]
