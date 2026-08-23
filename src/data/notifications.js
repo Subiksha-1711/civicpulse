@@ -1,0 +1,42 @@
+export const DEFAULT_NOTIFICATIONS = [
+  {
+    id: 'N1',
+    title: 'Complaint Assigned',
+    message: 'Your pothole complaint has been assigned to RMC Maintenance Team.',
+    time: '2 hours ago',
+    read: false,
+    type: 'info',
+  },
+  {
+    id: 'N2',
+    title: 'Duplicate Detected',
+    message: 'A similar complaint was detected near your location and merged into a cluster.',
+    time: '5 hours ago',
+    read: false,
+    type: 'ai',
+  },
+  {
+    id: 'N3',
+    title: 'Issue Resolved',
+    message: 'Your issue "Waterlogging on 5th Street" has been marked as resolved.',
+    time: '1 day ago',
+    read: false,
+    type: 'success',
+  },
+  {
+    id: 'N4',
+    title: 'New Issue Nearby',
+    message: 'New issue reported in your area: Broken street light on Ram Nagar.',
+    time: '2 days ago',
+    read: true,
+    type: 'info',
+  },
+  {
+    id: 'N5',
+    title: 'Cluster Created',
+    message: 'AI clustered 8 complaints into a single issue near MG Road.',
+    time: '3 days ago',
+    read: true,
+    type: 'ai',
+  },
+];
