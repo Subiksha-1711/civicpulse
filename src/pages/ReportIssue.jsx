@@ -6,6 +6,8 @@ import { Field, Button } from '../components/ui';
 import { CATEGORIES, SUBCATEGORIES, LOCATIONS, ISSUE_IMAGES } from '../data/constants';
 import { useApp } from '../context/AppContext';
 
+const API_BASE_URL = 'http://localhost:5000';
+
 export default function ReportIssue() {
   const [form, setForm] = useState({
     category: '', subcategory: '', description: '', locationName: '', latitude: '', longitude: '', additionalInfo: '',
@@ -64,40 +66,72 @@ export default function ReportIssue() {
     return Object.keys(errs).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validate()) {
       showToast('Please fix the errors in the form', 'error');
       return;
     }
     setSubmitting(true);
-    setTimeout(() => {
-      const loc = LOCATIONS.find((l) => l.name === form.locationName) || LOCATIONS[0];
+
+    const loc = LOCATIONS.find((l) => l.name === form.locationName) || LOCATIONS[0];
+    const latitude = form.latitude ? parseFloat(form.latitude) : loc.lat;
+    const longitude = form.longitude ? parseFloat(form.longitude) : loc.lng;
+
+    try {
+      const res = await fetch(`${API_BASE_URL}/analyze`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          description: form.description,
+          latitude,
+          longitude,
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error(`API error: ${res.status}`);
+      }
+
+      const data = await res.json();
+      console.log('CivicPulse API response:', data); // keep this while testing, remove later
+
+      // NOTE: field names below (classification, severity, issue_detection, etc.)
+      // are based on the doc description of api.py. If your actual JSON keys
+      // differ, adjust the data.xxx paths below to match.
       const newIssue = {
-        id: `ISSUE-2024-${String(Date.now()).slice(-4)}`,
-        title: `${form.subcategory} reported on ${form.locationName}`,
+        id: data?.issue_detection?.issue_id || `ISSUE-2024-${String(Date.now()).slice(-4)}`,
+        title: `${data?.classification?.subcategory || form.subcategory} reported on ${form.locationName}`,
         description: form.description,
-        category: form.category,
-        subcategory: form.subcategory,
+        category: data?.classification?.category || form.category,
+        subcategory: data?.classification?.subcategory || form.subcategory,
         location: form.locationName,
-        latitude: form.latitude ? parseFloat(form.latitude) : loc.lat,
-        longitude: form.longitude ? parseFloat(form.longitude) : loc.lng,
+        latitude,
+        longitude,
         status: 'Open',
-        priority: 'Medium',
+        priority: data?.severity?.label || 'Medium',
         reportedBy: user?.name || 'You',
         reportedAt: new Date().toISOString(),
         image: photos[0]?.url || ISSUE_IMAGES[Math.floor(Math.random() * ISSUE_IMAGES.length)],
         images: photos.length ? photos.map((p) => p.url) : [ISSUE_IMAGES[0]],
         relatedComplaints: 1,
-        clusterId: null,
-        aiConfidence: 0,
+        clusterId: data?.issue_detection?.issue_id || null,
+        aiConfidence: data?.issue_detection?.confidence || 0,
         additionalInfo: form.additionalInfo,
+        aiDecision: data?.issue_detection?.decision, // NEW_ISSUE / RELATED_ISSUE / DUPLICATE_ISSUE
+        department: data?.classification?.department,
+        rawApiResponse: data, // handy for debugging in the issue detail page
       };
+
       addIssue(newIssue);
-      setSubmitting(false);
       showToast('Issue submitted successfully!');
       navigate(`/issues/${newIssue.id}`);
-    }, 900);
+    } catch (err) {
+      console.error('Failed to submit to CivicPulse API:', err);
+      showToast('Could not reach CivicPulse backend. Is it running?', 'error');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (

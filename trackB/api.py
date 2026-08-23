@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pandas as pd
 
 from integration import (
@@ -13,6 +14,7 @@ from issue_detector import Complaint
 # ============================================================
 
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 # ============================================================
@@ -37,9 +39,12 @@ print("\nCivicPulse API models loaded successfully.")
 # ============================================================
 # ANALYZE COMPLAINT
 # ============================================================
-
-@app.route("/analyze", methods=["POST"])
+@app.route("/analyze", methods=["POST", "OPTIONS"])
 def analyze_complaint():
+
+    # Handle CORS preflight request immediately, before any real logic runs
+    if request.method == "OPTIONS":
+        return jsonify({"status": "ok"}), 200
 
     data = request.get_json()
 
