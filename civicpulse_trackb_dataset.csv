@@ -1,0 +1,151 @@
+complaint_id,description,category,subcategory,latitude,longitude,timestamp,ground_truth_issue_id,is_duplicate
+1,Road is badly damaged here near Ram Nagar Corporation School entrance and bikes are almost falling.,Road,Pothole,11.003159,76.964068,2026-07-04 22:45,ISSUE_001,True
+2,Car tyres are getting damaged because of the pothole near Ram Nagar Corporation School entrance.,Road,Pothole,11.003133,76.964594,2026-07-11 19:15,ISSUE_001,True
+3,There has been a deep pothole near Ram Nagar Corporation School entrance for almost a week. Two-wheelers are having difficulty passing through this area.,Road,Pothole,11.005246,76.964991,2026-07-01 11:55,ISSUE_001,True
+4,Big pothole near Ram Nagar Corporation School entrance.,Road,Pothole,11.005113,76.964989,2026-07-04 16:05,ISSUE_001,True
+5,"Monsoon rains have widened the pothole near Ram Nagar Corporation School entrance, it's now quite risky.",Road,Pothole,11.003464,76.964084,2026-07-06 14:00,ISSUE_001,True
+6,The stretch of road near Ram Nagar Corporation School entrance has developed a dangerous crater-like pothole.,Road,Pothole,11.006649,76.966281,2026-07-07 08:40,ISSUE_001,True
+7,Deep road damage reported near Ram Nagar Corporation School entrance.,Road,Pothole,11.004466,76.966743,2026-07-06 12:55,ISSUE_001,True
+8,Bikes are almost falling because of the damaged road near Ram Nagar Corporation School entrance.,Road,Pothole,11.003348,76.966906,2026-07-05 08:15,ISSUE_001,True
+9,Two-wheelers nearly fell due to the damaged road beside Ram Nagar Corporation School entrance.,Road,Pothole,11.007332,76.965501,2026-07-08 17:10,ISSUE_001,True
+10,A large pothole has appeared close to Ram Nagar Corporation School entrance.,Road,Pothole,11.004851,76.964648,2026-07-05 08:45,ISSUE_001,True
+11,There is a huge pothole near Gandhipuram Bus Stand.,Road,Pothole,11.019214,76.96878,2026-07-07 07:25,ISSUE_002,True
+12,"Monsoon rains have widened the pothole near Gandhipuram Bus Stand, it's now quite risky.",Road,Pothole,11.017006,76.965231,2026-07-09 12:50,ISSUE_002,True
+13,The stretch of road near Gandhipuram Bus Stand has developed a dangerous crater-like pothole.,Road,Pothole,11.017496,76.969323,2026-07-11 10:20,ISSUE_002,True
+14,The road outside Gandhipuram Bus Stand has a deep hole.,Road,Pothole,11.015698,76.968625,2026-07-08 19:45,ISSUE_002,True
+15,The road beside Gandhipuram Bus Stand is badly damaged and dangerous.,Road,Pothole,11.016997,76.965997,2026-07-06 22:35,ISSUE_002,True
+16,Deep road damage reported near Gandhipuram Bus Stand.,Road,Pothole,11.015455,76.965136,2026-07-05 10:50,ISSUE_002,True
+17,Two-wheelers nearly fell due to the damaged road beside Gandhipuram Bus Stand.,Road,Pothole,11.0158,76.968302,2026-07-05 18:30,ISSUE_002,True
+18,A large pothole has appeared close to Podanur Market.,Road,Pothole,10.964674,76.974169,2026-07-14 14:40,ISSUE_003,True
+19,Car tyres are getting damaged because of the pothole near Podanur Market.,Road,Pothole,10.96631,76.974438,2026-07-09 15:50,ISSUE_003,True
+20,"Monsoon rains have widened the pothole near Podanur Market, it's now quite risky.",Road,Pothole,10.965038,76.972895,2026-07-11 11:40,ISSUE_003,True
+21,Big pothole near Podanur Market.,Road,Pothole,10.967267,76.976512,2026-07-09 16:35,ISSUE_003,True
+22,Bikes are almost falling because of the damaged road near Podanur Market.,Road,Pothole,10.962597,76.976545,2026-07-11 13:00,ISSUE_003,True
+23,There is a huge pothole near Avinashi Road college gate.,Road,Pothole,11.037222,76.986845,2026-07-12 12:55,ISSUE_004,True
+24,Car tyres are getting damaged because of the pothole near Avinashi Road college gate.,Road,Pothole,11.033959,76.987176,2026-07-11 17:35,ISSUE_004,True
+25,The road beside Avinashi Road college gate is badly damaged and dangerous.,Road,Pothole,11.036898,76.984457,2026-07-07 13:05,ISSUE_004,True
+26,Big pothole near Avinashi Road college gate.,Road,Pothole,11.03409,76.985142,2026-07-07 13:00,ISSUE_004,True
+27,"Monsoon rains have widened the pothole near Avinashi Road college gate, it's now quite risky.",Road,Pothole,11.032755,76.985356,2026-07-07 08:00,ISSUE_004,True
+28,Deep road damage reported near Avinashi Road college gate.,Road,Pothole,11.036698,76.982554,2026-07-07 14:50,ISSUE_004,True
+29,Road near RS Puram Market road has broken down completely after the rains.,Road,Road damage,11.006037,76.948952,2026-07-02 19:25,ISSUE_005,True
+30,Vehicles are struggling to pass the damaged patch near RS Puram Market road.,Road,Road damage,11.004118,76.950335,2026-07-07 07:50,ISSUE_005,True
+31,The road near RS Puram Market road is cracked and full of loose gravel.,Road,Road damage,11.005267,76.951231,2026-07-02 18:55,ISSUE_005,True
+32,The road layer near RS Puram Market road has come apart exposing loose stones.,Road,Road damage,11.003697,76.952308,2026-07-03 12:15,ISSUE_005,True
+33,"Road surface near RS Puram Market road badly eroded, needs urgent repair.",Road,Road damage,11.004681,76.948701,2026-07-03 14:35,ISSUE_005,True
+34,Uneven road surface near RS Puram Market road is causing accidents.,Road,Road damage,11.003249,76.952616,2026-07-05 09:00,ISSUE_005,True
+35,"Road surface near Kuniyamuthur main road badly eroded, needs urgent repair.",Road,Road damage,10.963569,76.944505,2026-07-11 11:30,ISSUE_006,True
+36,Road near Kuniyamuthur main road has broken down completely after the rains.,Road,Road damage,10.962511,76.944452,2026-07-14 15:30,ISSUE_006,True
+37,The tar has worn off completely on the stretch near Kuniyamuthur main road.,Road,Road damage,10.965983,76.946153,2026-07-15 21:10,ISSUE_006,True
+38,Multiple cracks have formed on the road near Kuniyamuthur main road.,Road,Road damage,10.963449,76.943589,2026-07-11 07:55,ISSUE_006,True
+39,Vehicles are struggling to pass the damaged patch near Kuniyamuthur main road.,Road,Road damage,10.964068,76.942751,2026-07-14 22:40,ISSUE_006,True
+40,"Street lamp near PSG College Gate broken, area is pitch dark in the evenings.",Streetlight,Broken streetlight,11.026519,77.003208,2026-07-12 13:45,ISSUE_007,True
+41,The streetlight opposite PSG College Gate has stopped working and the road becomes completely dark after 7 PM.,Streetlight,Broken streetlight,11.027473,77.001597,2026-07-09 22:25,ISSUE_007,True
+42,Women feel unsafe walking near PSG College Gate after dark since the streetlight went out.,Streetlight,Broken streetlight,11.029174,76.999521,2026-07-08 13:20,ISSUE_007,True
+43,"No light near PSG College Gate at night, feels unsafe to walk.",Streetlight,Broken streetlight,11.026479,77.001858,2026-07-07 20:25,ISSUE_007,True
+44,The lamp post close to PSG College Gate has been non-functional for over ten days now.,Streetlight,Broken streetlight,11.029145,77.003179,2026-07-03 20:45,ISSUE_007,True
+45,Streetlight near PSG College Gate flickers and then goes off completely.,Streetlight,Broken streetlight,11.029492,77.00348,2026-07-04 12:40,ISSUE_007,True
+46,Light pole near PSG College Gate not working since last week.,Streetlight,Broken streetlight,11.025826,77.003166,2026-07-04 13:25,ISSUE_007,True
+47,Streetlight opposite PSG College Gate is not functioning for many days.,Streetlight,Broken streetlight,11.025925,77.000691,2026-07-11 15:45,ISSUE_007,True
+48,its very dark near PSG College Gate at night bcoz streetlight not working,Streetlight,Broken streetlight,11.029419,77.002535,2026-07-11 06:50,ISSUE_007,True
+49,The lamp post close to Saibaba Colony Park has been non-functional for over ten days now.,Streetlight,Broken streetlight,11.019124,76.937688,2026-07-08 14:40,ISSUE_008,True
+50,Light pole near Saibaba Colony Park not working since last week.,Streetlight,Broken streetlight,11.018543,76.938627,2026-07-07 08:50,ISSUE_008,True
+51,The streetlight opposite Saibaba Colony Park has stopped working and the road becomes completely dark after 7 PM.,Streetlight,Broken streetlight,11.018218,76.935483,2026-07-07 16:10,ISSUE_008,True
+52,Women feel unsafe walking near Saibaba Colony Park after dark since the streetlight went out.,Streetlight,Broken streetlight,11.019286,76.93541,2026-07-12 20:40,ISSUE_008,True
+53,"Street lamp near Saibaba Colony Park broken, area is pitch dark in the evenings.",Streetlight,Broken streetlight,11.019628,76.936905,2026-07-07 08:55,ISSUE_008,True
+54,Streetlight near Race Course bus stop flickers and then goes off completely.,Streetlight,Broken streetlight,11.001141,76.965095,2026-07-16 07:25,ISSUE_009,True
+55,Women feel unsafe walking near Race Course bus stop after dark since the streetlight went out.,Streetlight,Broken streetlight,11.00065,76.961848,2026-07-10 17:40,ISSUE_009,True
+56,The lamp post close to Race Course bus stop has been non-functional for over ten days now.,Streetlight,Broken streetlight,11.004021,76.962632,2026-07-14 10:15,ISSUE_009,True
+57,The streetlight opposite Race Course bus stop has stopped working and the road becomes completely dark after 7 PM.,Streetlight,Broken streetlight,11.003923,76.965481,2026-07-16 11:30,ISSUE_009,True
+58,Streetlight opposite Race Course bus stop is not functioning for many days.,Streetlight,Broken streetlight,10.999724,76.964283,2026-07-12 19:50,ISSUE_009,True
+59,Light pole near Race Course bus stop not working since last week.,Streetlight,Broken streetlight,11.00392,76.964654,2026-07-12 11:55,ISSUE_009,True
+60,Trash is piling up near Ukkadam Market and nobody has come to collect it.,Sanitation,Garbage collection,10.992148,76.957403,2026-07-04 13:00,ISSUE_010,True
+61,Waste bins near Ukkadam Market are overflowing and not emptied.,Sanitation,Garbage collection,10.9937,76.955292,2026-07-05 08:20,ISSUE_010,True
+62,There is a bad smell near Ukkadam Market because garbage hasn't been picked up.,Sanitation,Garbage collection,10.992156,76.955847,2026-07-11 16:00,ISSUE_010,True
+63,The municipal van hasn't come to Ukkadam Market for pickup in over a week.,Sanitation,Garbage collection,10.990977,76.958152,2026-07-03 14:00,ISSUE_010,True
+64,The garbage truck has skipped Ukkadam Market area this week.,Sanitation,Garbage collection,10.990942,76.955473,2026-07-06 19:45,ISSUE_010,True
+65,Garbage has not been collected near Ukkadam Market for several days.,Sanitation,Garbage collection,10.995321,76.953878,2026-07-10 12:20,ISSUE_010,True
+66,"its been many days garbage not collected near Ukkadam Market, very bad smell",Sanitation,Garbage collection,10.990622,76.95548,2026-07-09 12:25,ISSUE_010,True
+67,"Garbage lying uncollected near Ukkadam Market, please look into it.",Sanitation,Garbage collection,10.992556,76.958044,2026-07-06 16:50,ISSUE_010,True
+68,Garbage is not being collected near Ukkadam Market.,Sanitation,Garbage collection,10.99464,76.956899,2026-07-05 22:20,ISSUE_010,True
+69,Trash is piling up near Ukkadam Market and nobody has come to collect it.,Sanitation,Garbage collection,10.993734,76.954931,2026-07-05 10:15,ISSUE_010,True
+70,The garbage truck has skipped Race Course bus stop area this week.,Sanitation,Garbage collection,11.001319,76.961851,2026-07-16 16:35,ISSUE_011,True
+71,Garbage has not been collected near Race Course bus stop for several days.,Sanitation,Garbage collection,11.002009,76.964178,2026-07-16 21:55,ISSUE_011,True
+72,Waste bins near Race Course bus stop are overflowing and not emptied.,Sanitation,Garbage collection,11.000648,76.961224,2026-07-16 16:05,ISSUE_011,True
+73,Trash is piling up near Race Course bus stop and nobody has come to collect it.,Sanitation,Garbage collection,11.003892,76.964556,2026-07-17 15:15,ISSUE_011,True
+74,Garbage is not being collected near Race Course bus stop.,Sanitation,Garbage collection,11.003833,76.961537,2026-07-12 13:35,ISSUE_011,True
+75,Garbage has accumulated near Peelamedu vacant plot.,Sanitation,Waste dumping,11.029572,77.00622,2026-07-05 09:30,ISSUE_012,True
+76,Trash keeps getting dumped at the empty plot near Peelamedu vacant plot.,Sanitation,Waste dumping,11.028194,77.009021,2026-07-12 07:40,ISSUE_012,True
+77,A huge pile of garbage has formed near Peelamedu vacant plot due to illegal dumping.,Sanitation,Waste dumping,11.028346,77.009242,2026-07-12 10:35,ISSUE_012,True
+78,A mini landfill seems to be forming near Peelamedu vacant plot because of repeated dumping.,Sanitation,Waste dumping,11.030438,77.009939,2026-07-10 20:45,ISSUE_012,True
+79,"Illegal waste dumping spotted near Peelamedu vacant plot, becoming a health hazard.",Sanitation,Waste dumping,11.031175,77.00946,2026-07-11 20:10,ISSUE_012,True
+80,Waste is being dumped on the roadside near Peelamedu vacant plot regularly.,Sanitation,Waste dumping,11.030818,77.007373,2026-07-09 13:50,ISSUE_012,True
+81,Someone is dumping construction debris near Peelamedu vacant plot.,Sanitation,Waste dumping,11.028487,77.008888,2026-07-12 13:20,ISSUE_012,True
+82,Waste is being dumped on the roadside near Hopes College Road regularly.,Sanitation,Waste dumping,11.007099,76.950201,2026-07-09 10:15,ISSUE_013,True
+83,"Illegal waste dumping spotted near Hopes College Road, becoming a health hazard.",Sanitation,Waste dumping,11.007415,76.948264,2026-07-09 08:30,ISSUE_013,True
+84,Someone is dumping construction debris near Hopes College Road.,Sanitation,Waste dumping,11.007538,76.950213,2026-07-11 07:15,ISSUE_013,True
+85,People are dumping waste illegally near Hopes College Road.,Sanitation,Waste dumping,11.009664,76.949447,2026-07-12 06:45,ISSUE_013,True
+86,A huge pile of garbage has formed near Hopes College Road due to illegal dumping.,Sanitation,Waste dumping,11.007402,76.947529,2026-07-10 15:30,ISSUE_013,True
+87,Drain near Sitra main road is blocked and overflowing badly.,Drainage,Drain overflow,11.049965,76.989428,2026-07-08 16:50,ISSUE_014,True
+88,The drain near Sitra main road is overflowing onto the road.,Drainage,Drain overflow,11.051996,76.989022,2026-07-04 20:10,ISSUE_014,True
+89,The open drain near Sitra main road has been overflowing since yesterday.,Drainage,Drain overflow,11.053504,76.989671,2026-07-08 06:05,ISSUE_014,True
+90,Sewage water is flowing onto the street near Sitra main road.,Drainage,Drain overflow,11.051814,76.987678,2026-07-09 11:00,ISSUE_014,True
+91,Sewage has been backing up near Sitra main road for the past two days.,Drainage,Drain overflow,11.049901,76.988637,2026-07-09 16:25,ISSUE_014,True
+92,Drain overflow near Sitra main road is causing a foul smell in the area.,Drainage,Drain overflow,11.052406,76.988896,2026-07-08 14:05,ISSUE_014,True
+93,Dirty water from the drain near Sitra main road is spilling onto the pavement.,Drainage,Drain overflow,11.050952,76.990745,2026-07-02 17:15,ISSUE_014,True
+94,"drain near Sitra main road choked, water coming onto road",Drainage,Drain overflow,11.051851,76.990906,2026-07-02 06:15,ISSUE_014,True
+95,Sewage has been backing up near Kuniyamuthur for the past two days.,Drainage,Drain overflow,10.965068,76.943372,2026-07-14 20:55,ISSUE_015,True
+96,Drain near Kuniyamuthur is blocked and overflowing badly.,Drainage,Drain overflow,10.963981,76.944644,2026-07-17 09:10,ISSUE_015,True
+97,Drain overflow near Kuniyamuthur is causing a foul smell in the area.,Drainage,Drain overflow,10.967524,76.94334,2026-07-13 15:45,ISSUE_015,True
+98,Sewage water is flowing onto the street near Kuniyamuthur.,Drainage,Drain overflow,10.966087,76.947591,2026-07-16 12:05,ISSUE_015,True
+99,Dirty water from the drain near Kuniyamuthur is spilling onto the pavement.,Drainage,Drain overflow,10.96566,76.946953,2026-07-14 09:55,ISSUE_015,True
+100,The road near Singanallur underpass gets flooded every time it rains.,Drainage,Waterlogging,10.999836,77.021542,2026-07-09 08:40,ISSUE_016,True
+101,"Knee-deep water near Singanallur underpass after last night's rain, very difficult to cross.",Drainage,Waterlogging,11.001338,77.019463,2026-07-10 21:05,ISSUE_016,True
+102,Water accumulates near Singanallur underpass and doesn't drain for hours.,Drainage,Waterlogging,11.000268,77.021211,2026-07-11 10:30,ISSUE_016,True
+103,There is severe waterlogging near Singanallur underpass after the rain.,Drainage,Waterlogging,10.998981,77.022009,2026-07-08 21:35,ISSUE_016,True
+104,Two-wheelers are stalling in the flooded stretch near Singanallur underpass.,Drainage,Waterlogging,11.000278,77.023055,2026-07-08 16:15,ISSUE_016,True
+105,Every monsoon the area near Singanallur underpass turns into a small lake.,Drainage,Waterlogging,11.002254,77.019833,2026-07-11 13:35,ISSUE_016,True
+106,"Water stagnating near Singanallur underpass since morning, need urgent pumping.",Drainage,Waterlogging,11.000949,77.022741,2026-07-09 06:35,ISSUE_016,True
+107,Waterlogging near Singanallur underpass is making it hard for vehicles to pass.,Drainage,Waterlogging,11.002355,77.020309,2026-07-07 17:20,ISSUE_016,True
+108,The road near Singanallur underpass gets flooded every time it rains.,Drainage,Waterlogging,10.999802,77.023802,2026-07-08 06:40,ISSUE_016,True
+109,Residents near Ramanathapuram are not getting water on schedule.,Water,Water supply,10.996753,76.97253,2026-07-08 20:00,ISSUE_017,True
+110,Water supply near Ramanathapuram keeps getting interrupted without notice.,Water,Water supply,10.993765,76.970408,2026-07-04 15:50,ISSUE_017,True
+111,No water in the taps near Ramanathapuram since morning.,Water,Water supply,10.996208,76.971666,2026-07-06 19:55,ISSUE_017,True
+112,The water supply near Ramanathapuram has been irregular this week.,Water,Water supply,10.996052,76.971059,2026-07-08 14:20,ISSUE_017,True
+113,families near Ramanathapuram had to buy water cans again bcoz no supply,Water,Water supply,10.994557,76.969903,2026-07-04 16:05,ISSUE_017,True
+114,There has been no water supply near Ramanathapuram for two days.,Water,Water supply,10.997014,76.974054,2026-07-03 12:15,ISSUE_017,True
+115,Water pressure is very low near Ramanathapuram.,Water,Water supply,10.996993,76.970682,2026-07-05 09:15,ISSUE_017,True
+116,The drinking water near Coimbatore North railway colony appears contaminated.,Water,Water quality,11.00354,76.968833,2026-07-06 07:40,ISSUE_018,True
+117,The water supply near Coimbatore North railway colony smells foul and looks discolored.,Water,Water quality,11.001461,76.97292,2026-07-11 21:05,ISSUE_018,True
+118,Water coming from the pipeline near Coimbatore North railway colony has a bad odor.,Water,Water quality,11.004364,76.97107,2026-07-09 21:35,ISSUE_018,True
+119,Water near Coimbatore North railway colony is yellowish and not fit for drinking.,Water,Water quality,11.001704,76.973027,2026-07-08 21:05,ISSUE_018,True
+120,People near Coimbatore North railway colony have complained of stomach upset after drinking the tap water.,Water,Water quality,11.004111,76.970204,2026-07-06 07:10,ISSUE_018,True
+121,Tap water near Coimbatore North railway colony is muddy and unsafe to drink.,Water,Water quality,11.000746,76.971014,2026-07-08 08:15,ISSUE_018,True
+122,current has been off near Vadavalli apartment block since yesterday evening,Electricity,Power outage,11.020353,76.914214,2026-07-09 15:45,ISSUE_019,True
+123,Power keeps tripping near Vadavalli apartment block multiple times a day.,Electricity,Power outage,11.021205,76.915048,2026-07-04 12:50,ISSUE_019,True
+124,Electricity has been gone near Vadavalli apartment block for several hours.,Electricity,Power outage,11.019155,76.915302,2026-07-05 13:10,ISSUE_019,True
+125,Frequent power cuts are happening near Vadavalli apartment block.,Electricity,Power outage,11.02086,76.912783,2026-07-09 20:55,ISSUE_019,True
+126,"Power outage in the area near Vadavalli apartment block, please restore soon.",Electricity,Power outage,11.021069,76.913456,2026-07-06 15:55,ISSUE_019,True
+127,No electricity near Vadavalli apartment block since last night.,Electricity,Power outage,11.019514,76.916298,2026-07-04 13:20,ISSUE_019,True
+128,There has been a power outage near Vadavalli apartment block since morning.,Electricity,Power outage,11.022039,76.915125,2026-07-06 19:05,ISSUE_019,True
+129,current has been off near Vadavalli apartment block since yesterday evening,Electricity,Power outage,11.020823,76.915238,2026-07-07 10:05,ISSUE_019,True
+130,Sparks were seen coming from a wire near Town Hall.,Electricity,Electrical hazard,10.997543,76.96302,2026-07-10 14:40,ISSUE_020,True
+131,"children play near Town Hall where a live wire is hanging, very dangerous",Electricity,Electrical hazard,10.9979,76.963689,2026-07-11 07:30,ISSUE_020,True
+132,The transformer near Town Hall is making strange noises and sparking.,Electricity,Electrical hazard,10.998873,76.964519,2026-07-07 08:15,ISSUE_020,True
+133,"Loose electrical cable hanging near Town Hall, could be dangerous for pedestrians.",Electricity,Electrical hazard,11.00001,76.96568,2026-07-11 06:50,ISSUE_020,True
+134,A damaged electric pole near Town Hall looks unsafe.,Electricity,Electrical hazard,10.999307,76.964381,2026-07-13 11:35,ISSUE_020,True
+135,"Exposed electrical wiring spotted near Town Hall, very risky.",Electricity,Electrical hazard,10.997795,76.963711,2026-07-09 11:45,ISSUE_020,True
+136,A damaged electrical wire is hanging loose near Ganapathy bus stop,Electricity,Electrical hazard,11.034995,77.003601,2026-07-16 07:15,ISSUE_021,False
+137,"Water near Hope College junction tasted odd this morning, please check",Water,Water quality,11.001839,76.98209,2026-07-02 14:40,ISSUE_022,False
+138,Garbage collection has become a real problem near Podanur railway colony,Sanitation,Garbage collection,10.964244,76.948757,2026-07-03 13:55,ISSUE_023,False
+139,"Short power fluctuation near Saravanampatti, appliances got affected",Electricity,Power outage,10.965995,76.973864,2026-07-05 09:50,ISSUE_024,False
+140,Power outage in apartment block near Ondipudur,Electricity,Power outage,11.033864,76.969864,2026-07-10 21:35,ISSUE_025,False
+141,Irregular water timing near Kavundampalayam main road this month,Water,Water supply,10.974024,76.976392,2026-07-19 10:05,ISSUE_026,False
+142,The traffic signal near Neelambur has been broken for days,Road,Traffic signal,10.97737,77.000303,2026-07-18 06:20,ISSUE_027,False
+143,"Someone dumped old furniture near Ganapathy Road, needs removal",Sanitation,Waste dumping,11.022845,77.004227,2026-07-06 21:25,ISSUE_028,False
+144,Bin near Peelamedu signal wasn't emptied this week,Sanitation,Garbage collection,10.982876,76.997586,2026-07-09 13:45,ISSUE_029,False
+145,Drain blockage near Kalapatti needs to be cleared urgently,Drainage,Drain overflow,10.988029,77.005056,2026-07-18 18:30,ISSUE_030,False
+146,Small stretch of road near Sundarapuram has started cracking,Road,Road damage,11.049297,76.998196,2026-07-02 22:45,ISSUE_031,False
+147,Water pressure is very low near Vellalore these days,Water,Water supply,10.984235,76.928836,2026-07-15 10:30,ISSUE_032,False
+148,Single streetlight near Vilankurichi Road out for a few days now,Streetlight,Broken streetlight,11.035818,77.01784,2026-07-10 18:50,ISSUE_033,False
+149,Minor waterlogging near Thudiyalur after yesterday's drizzle,Drainage,Waterlogging,10.958555,76.952957,2026-07-13 21:40,ISSUE_034,False
+150,"Isolated pothole spotted near Ramanathapuram signal, not too big but should be fixed",Road,Pothole,10.953983,76.928105,2026-07-10 08:30,ISSUE_035,False
